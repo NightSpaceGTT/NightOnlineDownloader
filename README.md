@@ -1,6 +1,7 @@
 # **NightOnlineDownloader**
  - If you like the project drop a star and fork it !
  - NightOnlineDownloader is a web YouTube downloader project with english page
+ - the project is based on a not working github repo
  - [Discord](https://discord.gg/Sz5wStph2v)
 
 ## **Need**
@@ -26,9 +27,9 @@
  - Open the bat named "install.bat"
  - -->
 
-**In ./src/js/script.js :**
+**In [./src/js/script.js](https://github.com/NightSpaceGTT/NightOnlineDownloader/blob/main/src/js/script.js) :**
 
-You have in line 4
+You have on line 5
 to replace **Enter here the web server url(domain name/ip/localhost:4444 (but: the localhost work only on the same computer who run the script) if you want you can use Ngrok for spoofing your ip but you have to enter the same Port)** to only your server URL (ip/localhost/Ngrok but read that ;) if you want you can join my discord serveur and ping me for help)
 
 ```js
