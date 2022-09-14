@@ -1,0 +1,27 @@
+{
+  "name": "night-online-downloader",
+  "version": "1.2.4",
+  "description": "A easy open-source tool that help you to download YouTube videos at mp3(audio only) ,mp4(audio and video),  webm(audio and video), webm(audio only)",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "build": "npm i && echo \"\nif you want to start the website just do \"npm run start\" \" && exit 1",
+    "start": "cls && node ."
+  },
+  "keywords": [],
+  "author": "NightSpaceGTT",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightSpaceGTT/NightOnlineDownloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NightSpaceGTT/NightOnlineDownloader/issues"
+  },
+  "homepage": "https://github.com/NightSpaceGTT/NightOnlineDownloader#readme"
+}

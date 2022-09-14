@@ -1,0 +1,159 @@
+* {
+	text-align: center;
+}
+
+body {
+	display: gird;
+	grid-template-columns: auto;
+	background-image: url("https://wallpaperaccess.com/full/350014.jpg");
+}
+
+.heading {
+	font-family: Dekko;
+	margin-top: 40vh;
+	color: rgb(195, 0, 255);
+}
+
+.URL-exemple,
+.download-button {
+	font-size: 1.3em;
+	padding: 5px 10px;
+}
+
+.URL-exemple {
+	margin: auto;
+	border-radius: 20px 20px 20px 20px;
+	width: 50%;
+	text-align: left;
+	border: 5px solid #065f6b;
+	outline: none;
+	padding: 0.3em;
+	padding-left: 0.5em;
+	background: white;
+	color: crimson;
+	font-family: Ink Free;
+}
+
+.URL-exemple:focus {
+	border: 2px solid #0485ff;
+}
+
+.download-button {
+	margin: 2% auto;
+	border: 2px solid #0485ff;
+	background: #0485ff;
+	color: gold;
+	border-radius: 2em;
+	font-family: cursive;
+}
+
+.download-button:hover {
+	background: #016acc;
+	border-color: #016acc;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		display: grid;
+		grid-template-columns: auto;
+		justify-content: center;
+	}
+
+	.URL-exemple {
+		margin: auto;
+		width: 100%;
+	}
+
+	.download-button {
+		margin: 7% auto;
+		width: 100%;
+	}
+}
+
+.opt {
+	width: 13%;
+	margin: 2% auto;
+	padding: 4px;
+	border-radius: 0%;
+	color: rgb(0, 255, 234);
+	font-weight: bolder;
+	font-family: Actor;
+	font-size: 17px;
+	background: #422940;
+}
+
+.bubbles {
+	position: relative;
+	display: flex;
+}
+
+.bubbles span {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: #4fc3dc;
+	border-radius: 100%;
+	margin: 0 10px;
+	box-shadow: 0 0 0 10px #4fc3dc44,
+		0 0 50px #4fc3dc,
+		0 0 100px #4fc3dc;
+	animation: animate1 2s linear infinite;
+	animation-duration: calc(125s/var(--i));
+}
+
+.bubbles span:nth-child(even) {
+	background: #ff2d75;
+	box-shadow: 0 0 0 10px #ff2d7544,
+		0 0 50px #ff2d75,
+		0 0 100px #ff2d75;
+	animation: animate1 2s linear infinite;
+	animation-duration: calc(125s/var(--i));
+}
+
+@keyframes animate1 {
+	0% {
+		transform: translateY(140vh) scale(0);
+	}
+
+	100% {
+		transform: translateY(-10vh) scale(1);
+	}
+}
+
+#x {
+	position: relative;
+	display: flex;
+}
+
+#x span {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	background: #03fc24;
+	border-radius: 100%;
+	margin: 0 10px;
+	box-shadow: 0 0 0 10px #03fc2444,
+		0 0 50px #03fc24,
+		0 0 100px #03fc24;
+	animation: animate1 2s linear infinite;
+	animation-duration: calc(110s/var(--j));
+}
+
+#x span:nth-child(even) {
+	background: #fcf803;
+	box-shadow: 0 0 0 10px #fcf80344,
+		0 0 50px #fcf803,
+		0 0 100px #fcf803;
+	animation: animate1 2s linear infinite;
+	animation-duration: calc(120s/var(--j));
+}
+
+@keyframes animate1 {
+	0% {
+		transform: translateY(140vh) scale(0);
+	}
+
+	100% {
+		transform: translateY(-10vh) scale(1);
+	}
+}
