@@ -9,8 +9,8 @@
         /____/                                                                                                
 ```
 
- - If you like the project drop a star and fork it !
- - NightOnlineDownloader is a web YouTube downloader project with english page
+ - If you like the project you can drop a star and fork it !
+ - NightOnlineDownloader is a online YouTube downloader project
  - the project is based on a not working github repo
  - [Discord](https://discord.gg/Sz5wStph2v)
 
@@ -67,7 +67,7 @@ Here--> let serverURL = 'Enter here the web server url(domain name/ip/localhost:
 ```
 
 
-**And IT'S DONE**, you don't have to do anything else, just read the end **please** !
+**And IT'S DONE**, just read the end **please** !
 
 ## **Starting**
 
