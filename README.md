@@ -34,7 +34,7 @@
 **Before launching the web-server**
 
  - Install the project
- - Open the bat named "install.bat"
+ - Open the bat named "install.bat" / on linux open a Terminal at the floder & do "npm i"
  - -->
 
 **In [./src/js/script.js](https://github.com/NightSpaceGTT/NightOnlineDownloader/blob/main/src/js/script.js) :**
@@ -71,7 +71,7 @@ Here--> let serverURL = 'Enter here the web server url(domain name/ip/localhost:
 
 ## **Starting**
 
- - Just start the bat named "start.bat" 😂🤣
+ - Just start the bat named "start.bat" 😂🤣 / on linux onpen a Terminal on the floder and do "node index.js"
  - And enjoy (lol you didn't need me)
 
 ## **License**
