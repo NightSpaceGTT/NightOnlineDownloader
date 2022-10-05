@@ -1,5 +1,6 @@
 # **NightOnlineDownloader**
 
+[![1](https://github-readme-stats.vercel.app/api/pin/?username=NightSpaceGTT&repo=NightOnlineDownloader&theme=synthwave&show_owner)](https://github.com/NightSpaceGTT/NightOnlineDownloader)
 ```
     _   ___       __    __  ____        ___            ____                      __                __         
    / | / (_)___ _/ /_  / /_/ __ \____  / (_)___  ___  / __ \____ _      ______  / /___  ____ _____/ /__  _____
